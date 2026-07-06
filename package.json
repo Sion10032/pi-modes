@@ -4,7 +4,6 @@
 	"description": "Pi extension: Codex-like /plan collaboration mode and minimal /ro read-only mode.",
 	"type": "module",
 	"license": "MIT",
-	"private": true,
 	"keywords": [
 		"pi-package",
 		"pi-extension",
