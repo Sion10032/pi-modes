@@ -1,0 +1,42 @@
+{
+	"name": "@sion10032/pi-modes",
+	"version": "0.1.0",
+	"description": "Pi extension: Codex-like /plan collaboration mode and minimal /ro read-only mode.",
+	"type": "module",
+	"license": "MIT",
+	"private": true,
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"pi",
+		"plan-mode",
+		"planning",
+		"readonly-mode",
+		"read-only"
+	],
+	"files": [
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"pi": {
+		"extensions": [
+			"./src/index.ts"
+		]
+	},
+	"scripts": {
+		"check": "biome check . && npm run typecheck",
+		"format": "biome check --write .",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.14",
+		"@earendil-works/pi-coding-agent": "0.79.8",
+		"typescript": "6.0.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sion10032/pi-modes"
+	},
+	"homepage": "https://github.com/sion10032/pi-modes#readme"
+}
