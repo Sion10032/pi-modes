@@ -116,7 +116,7 @@ Pi extension, Pi coding agent, plan mode, read-only mode, Codex-like plan mode, 
 
 ## 🙏 Acknowledgments
 
-This project is based on [@narumitw/pi-plan-mode](https://www.npmjs.com/package/@narumitw/pi-plan-mode) by [narumiruna](https://github.com/narumiruna/pi-extensions). Extended with shared mode guard, read-only mode, Chinese prompts, and unified configuration.
+This project is based on [@narumitw/pi-plan-mode](https://www.npmjs.com/package/@narumitw/pi-plan-mode) by [narumiruna](https://github.com/narumiruna/pi-extensions). Extended with read-only mode, and unified configuration.
 
 ## 📄 License
 
